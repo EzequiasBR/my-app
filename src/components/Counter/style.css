@@ -1,0 +1,28 @@
+div#caixa {
+   margin: 20px; 
+   gap: 1rem;
+   display: flex; 
+   flex-direction: column;
+}
+
+div#caixa div h1 {
+  margin-left: 60px;
+  margin-bottom: 1rem; 
+}
+
+div#caixa div h1 + button {
+   margin-right: 20px; 
+}
+
+form#form-caixa{
+   margin-top: 40px; 
+   gap: 1rem; 
+   display: flex;
+   flex-direction: column;
+   width: 300px; 
+   font-size: 1.5rem;
+}
+
+form#form-caixa input{
+ font-size: 2rem; 
+}

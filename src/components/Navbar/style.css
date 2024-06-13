@@ -1,0 +1,47 @@
+header nav#navBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 80px;
+}
+
+header nav#navBar .nav-brand{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+header nav#navBar .nav-brand{
+   font-family: "Grenze", serif;
+   font-weight: 400;
+   font-size: 2rem;
+}
+
+header nav#navBar div.nav-brand img{
+   width: 50px;
+   border-radius: 50%;
+   background-color: #141036;
+}
+
+header nav#navBar ul.nav-list{
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+header nav#navBar ul.nav-list li a{
+   color: white;
+   font-size: 1.7rem;
+   font-weight: 500;
+   transition: color 0.4s;
+}
+
+header nav#navBar ul.nav-list li a:hover{
+   color: rgb(250, 159, 55);
+   transition: color 0.4s;
+}

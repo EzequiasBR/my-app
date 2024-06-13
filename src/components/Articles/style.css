@@ -1,0 +1,16 @@
+section#articles{
+   max-width: 1240px;
+   padding: 0 2rem;
+   margin: 4rem 4rem;
+ 
+   display: flex;
+   flex-direction: column;
+   gap: 2.87rem;
+ }
+ 
+ section#articles img{
+    border-radius: 10px;
+    border: 1px solid #3b3c3d;
+    width: 250px;
+    height: 167px;
+  }
