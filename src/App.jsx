@@ -12,8 +12,8 @@ class App extends React.Component {
     return (
       <>
         <Navbar />
-        {/* <Articles /> */}
-        <Counter />
+        <Articles />
+        {/* <Counter /> */}
       </>
     );
   }
